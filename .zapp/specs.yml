@@ -1,3 +1,11 @@
 app:
   title: My App
   description: This is my app.
+routes:
+  /:
+    template: main
+    paths:
+      about:
+        component: about
+      contact:
+        component: contact
